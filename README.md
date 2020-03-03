@@ -1,16 +1,14 @@
-# ReadMe Generator
+# README Generator
 
-# Owner
-
-Keshav Avva
-
-email: keshav.s.avva@gmail.com
+## Keshav Avva
 
 ![IMAGE](https://avatars2.githubusercontent.com/u/58408384?v=4)
 
+email: null
+
 ## Description
 
-This application prompts the user and automaticallt generates a README file with relevant information
+This application automatically generates a README for your project based off of user inputs.
 
 
 ## Table of Contents
@@ -26,12 +24,12 @@ This application prompts the user and automaticallt generates a README file with
 
 ## Installation
 
-initialize npm in the terminal and install axios, inquirer, and fs
+Use npm init to initialize and then install fs, axios, and inquirer
 
 
 ## Usage
 
-run using "node index.js"
+type "node index.js"
 
 
 ## Credits
@@ -41,7 +39,7 @@ none
 
 ## License
 
-copyright Keshav
+Copyright Keshav Avva
 
 
 ## Badges

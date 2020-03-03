@@ -54,7 +54,7 @@ inquirer
             };
     
         console.log(email, imageAdd);
-        const readMeStr = `# ${answers.title}\n\n# Owner\n\n ${name}\n\nemail: ${email}\n\n![IMAGE](${imageAdd})\n\n## Description\n\n${answers.description}\n\n\n## Table of Contents\n\n* [Installation](#installation)\n* [Usage](#usage)\n* [Credits](#credits)\n* [License](#license)\n* [Badges](#badges)\n* [Contributing](#contributing)\n* [Tests](#tests)\n\n\n## Installation\n\n${answers.installation}\n\n\n## Usage\n\n${answers.usage}\n\n\n## Credits\n\n${answers.credits}\n\n\n## License\n\n${answers.license}\n\n\n## Badges\n\n![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)\n\n\n## Contributing\n\n${answers.contributing}\n\n\n## Tests\n\n${answers.tests}\n\n\n`;
+        const readMeStr = `# ${answers.title}\n\n## ${name}\n\n![IMAGE](${imageAdd})\n\nemail: ${email}\n\n## Description\n\n${answers.description}\n\n\n## Table of Contents\n\n* [Installation](#installation)\n* [Usage](#usage)\n* [Credits](#credits)\n* [License](#license)\n* [Badges](#badges)\n* [Contributing](#contributing)\n* [Tests](#tests)\n\n\n## Installation\n\n${answers.installation}\n\n\n## Usage\n\n${answers.usage}\n\n\n## Credits\n\n${answers.credits}\n\n\n## License\n\n${answers.license}\n\n\n## Badges\n\n![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)\n\n\n## Contributing\n\n${answers.contributing}\n\n\n## Tests\n\n${answers.tests}\n\n\n`;
         fs.writeFile("README.md", readMeStr, function(err) {
             if (err) {
             throw err;
